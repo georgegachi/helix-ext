@@ -38,3 +38,13 @@ package.helix-term.opt-level = 2
 [workspace.dependencies]
 tree-sitter = { version = "0.20" }
 nucleo = "0.2.0"
+
+[package]
+version = "23.10"
+authors = ["Blaž Hrastnik (Patched!) <blaz@mxxn.io>"]
+edition = "2021"
+license = "MPL-2.0"
+categories = ["editor", "command-line-utilities"]
+repository = "https://github.com/helix-editor/helix"
+homepage = "https://helix-editor.com"
+rust-version = "1.76"
