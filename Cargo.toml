@@ -40,7 +40,7 @@ tree-sitter = { version = "0.20" }
 nucleo = "0.2.0"
 
 [package]
-version = "23.10"
+version = "23.10.0"
 authors = ["Blaž Hrastnik (Patched!) <blaz@mxxn.io>"]
 edition = "2021"
 license = "MPL-2.0"
