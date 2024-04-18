@@ -2,7 +2,7 @@
 name = "helix-term"
 version = "0.6.0"
 description = "A post-modern text editor."
-authors = ["Blaž Hrastnik <blaz@mxxn.io>"]
+authors = ["Blaž Hrastnik (Patched!) <blaz@mxxn.io>"]
 edition = "2021"
 license = "MPL-2.0"
 categories = ["editor", "command-line-utilities"]
@@ -53,7 +53,7 @@ log = "0.4"
 nucleo.workspace = true
 ignore = "0.4"
 # markdown doc rendering
-pulldown-cmark = { version = "0.9", default-features = false }
+pulldown-cmark = { version = "0.9.6", default-features = false }
 # file type detection
 content_inspector = "0.2.4"
 
