@@ -126,7 +126,8 @@
       commonArgs = {
         inherit stdenv;
         inherit (craneLibMSRV.crateNameFromCargoToml {cargoToml = ./helix-term/Cargo.toml;}) pname;
-        inherit (craneLibMSRV.crateNameFromCargoToml {cargoToml = ./Cargo.toml;}) version;
+        # inherit (craneLibMSRV.crateNameFromCargoToml {cargoToml = ./Cargo.toml;}) version;
+        version = "23.10";
         src = filteredSource;
         # disable fetching and building of tree-sitter grammars in the helix-term build.rs
         HELIX_DISABLE_AUTO_GRAMMAR_BUILD = "1";
